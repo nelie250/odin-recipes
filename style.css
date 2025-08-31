@@ -18,7 +18,7 @@ a:hover{
 }
 .recipe-links{
   background-color: bisque;
-  width: 50%;;
+  width: 70%;
   margin: auto;
   padding: 2rem;
 
@@ -66,5 +66,8 @@ a:hover{
 @media only screen and (min-width: 600px) {
  .main{
   width: 60%;
+ }
+ .recipe-links{
+  width:40%;
  }
 }
