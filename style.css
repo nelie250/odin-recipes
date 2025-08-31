@@ -7,40 +7,41 @@ a{
   margin-bottom: 1rem;
 }
 a:hover{
-  background-color: rgb(245, 242, 238);
+  background-color: rgb(233, 229, 224);
   border-radius: 10px;
   
-
 }
 .links-container h1{
   text-align: center;
   font-weight: 800;
   font-size: 2.5rem;
 }
-.recipes-links{
+.recipe-links{
   background-color: bisque;
-  width: 70%;
+  width: 50%;;
   margin: auto;
   padding: 2rem;
 
 }
-.recipes-links li{
+.recipe-links li {
   display: flex;
   list-style: none;
-  margin: 1% 0;
 }
-.recipes-links li a{
+.recipe-links li a{
+  display:inline-block;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  background-color: rgb(232, 238, 238);
-  padding: 1rem 40%;
+  color: rgb(94, 82, 66);
   border-radius: 1.3rem;
   text-decoration: none;
-  color: rgb(122, 107, 107);
+  background-color: aliceblue;
+  width: 100%;
+  text-align: center;
+
 }
-.recipes-links li a:hover{
-  filter: brightness(0.9);
+.recipe-links li a:hover{
+  filter: brightness(0.7);
 }
 .main{
   display: flex;
@@ -61,7 +62,6 @@ a:hover{
  text-align: center;
  width: 65%;
 }
-
 
 @media only screen and (min-width: 600px) {
  .main{
