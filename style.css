@@ -1,0 +1,70 @@
+a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0.75rem;
+  font-weight: 600;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+a:hover{
+  background-color: rgb(245, 242, 238);
+  border-radius: 10px;
+  
+
+}
+.links-container h1{
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.recipes-links{
+  background-color: bisque;
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+
+}
+.recipes-links li{
+  display: flex;
+  list-style: none;
+  margin: 1% 0;
+}
+.recipes-links li a{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgb(232, 238, 238);
+  padding: 1rem 40%;
+  border-radius: 1.3rem;
+  text-decoration: none;
+  color: rgb(122, 107, 107);
+}
+.recipes-links li a:hover{
+  filter: brightness(0.9);
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+ 
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 3px 3px 81px rgb(239, 229, 229);
+
+}
+.card p{
+ text-align: center;
+ width: 65%;
+}
+
+
+@media only screen and (min-width: 600px) {
+ .main{
+  width: 60%;
+ }
+}

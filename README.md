@@ -24,9 +24,7 @@ This project is a simple website dedicated to recipes. It serves as a practical 
 
 ## How to View
 
-You can view this project by:
-1.  Cloning the repository: `git clone https://github.com/YOUR_USERNAME/odin-recipes.git`
-2.  Opening the `index.html` file in your web browser.
+You can view this project by:https://nelie250.github.io/odin-recipes/
 
 
 ## Author
