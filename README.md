@@ -24,7 +24,7 @@ This project is a simple website dedicated to recipes. It serves as a practical 
 
 ## How to View
 
-You can view this project by:https://nelie250.github.io/odin-recipes/
+You can view this project by: https://nelie250.github.io/odin-recipes/
 
 
 ## Author
